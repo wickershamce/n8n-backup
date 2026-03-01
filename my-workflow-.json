@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-02-27T20:30:29.859Z",
+  "createdAt": "2026-02-27T17:59:55.041Z",
+  "id": "KB4LBkvIxd881ipb",
+  "name": "My workflow",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "a54b43d1-c812-4162-8828-128764c7512d",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "operation": "delete"
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        336,
+        64
+      ],
+      "id": "7602f8e6-251b-4226-a0a3-a8bad3ffd478",
+      "name": "Delete a message",
+      "webhookId": "9c474f6e-7f14-449f-b69b-17ea09a90a71",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "3tpAw0GVbZ3njaOz",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {},
+  "versionId": "d7d7c464-1f95-46f2-9486-f5fd064b2192",
+  "activeVersionId": null,
+  "triggerCount": 0,
+  "shared": [
+    {
+      "updatedAt": "2026-02-27T17:59:55.041Z",
+      "createdAt": "2026-02-27T17:59:55.041Z",
+      "role": "workflow:owner",
+      "workflowId": "KB4LBkvIxd881ipb",
+      "projectId": "QYZgQIC6qQ2eyl3Z"
+    }
+  ],
+  "activeVersion": null,
+  "tags": []
+}
