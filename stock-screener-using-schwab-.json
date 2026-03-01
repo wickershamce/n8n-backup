@@ -1,0 +1,64 @@
+{
+  "updatedAt": "2026-03-01T19:07:14.161Z",
+  "createdAt": "2026-02-27T19:57:57.495Z",
+  "id": "p7amoqjhxwzolWav",
+  "name": "Stock Screener using Schwab",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "8ca7533c-0339-4599-9974-13c10aecf20c",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "https://api.schwabapi.com/v1/oauth/authorize?client_id=1uOGWOUNWgaAzOwYyRVidmIt48JZcNGeWoLe4njPIBFk96c8&redirect_uri=https://n8n.cwcserv.com/rest/oauth2-external/callback",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        144,
+        144
+      ],
+      "id": "0715467a-dd4c-4a4c-a15b-bd6167ef32af",
+      "name": "HTTP Request"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "bd521c5c-01c1-4f90-b800-929c912b75d7",
+  "activeVersionId": null,
+  "triggerCount": 0,
+  "shared": [
+    {
+      "updatedAt": "2026-02-27T19:57:57.495Z",
+      "createdAt": "2026-02-27T19:57:57.495Z",
+      "role": "workflow:owner",
+      "workflowId": "p7amoqjhxwzolWav",
+      "projectId": "QYZgQIC6qQ2eyl3Z"
+    }
+  ],
+  "activeVersion": null,
+  "tags": []
+}
