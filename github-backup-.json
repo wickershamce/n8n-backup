@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-01T19:04:49.390Z",
+  "updatedAt": "2026-03-01T19:07:46.067Z",
   "createdAt": "2026-03-01T14:18:15.726Z",
   "id": "Pfr3L9f4thjWRzyt",
   "name": "GitHub Backup",
@@ -62,8 +62,7 @@
         192,
         144
       ],
-      "typeVersion": 1,
-      "disabled": true
+      "typeVersion": 1
     },
     {
       "parameters": {
@@ -98,8 +97,7 @@
           "id": "afg8zAHJoWqZATuJ",
           "name": "GitHub account"
         }
-      },
-      "disabled": true
+      }
     },
     {
       "parameters": {
@@ -413,7 +411,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "824f5511-4a38-4ad8-9cc2-4d86b529a562",
+  "versionId": "3188b600-5b04-4fc0-9b2f-68da9469ac5e",
   "activeVersionId": "2672f901-228b-4952-ac92-900a54270adb",
   "triggerCount": 1,
   "shared": [
