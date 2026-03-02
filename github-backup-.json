@@ -412,7 +412,7 @@
   },
   "pinData": {},
   "versionId": "3188b600-5b04-4fc0-9b2f-68da9469ac5e",
-  "activeVersionId": "2672f901-228b-4952-ac92-900a54270adb",
+  "activeVersionId": "3188b600-5b04-4fc0-9b2f-68da9469ac5e",
   "triggerCount": 1,
   "shared": [
     {
@@ -424,9 +424,9 @@
     }
   ],
   "activeVersion": {
-    "updatedAt": "2026-03-01T17:49:10.131Z",
-    "createdAt": "2026-03-01T17:48:42.296Z",
-    "versionId": "2672f901-228b-4952-ac92-900a54270adb",
+    "updatedAt": "2026-03-01T19:08:36.994Z",
+    "createdAt": "2026-03-01T19:07:46.068Z",
+    "versionId": "3188b600-5b04-4fc0-9b2f-68da9469ac5e",
     "workflowId": "Pfr3L9f4thjWRzyt",
     "nodes": [
       {
@@ -459,6 +459,7 @@
           144
         ],
         "typeVersion": 1,
+        "alwaysOutputData": false,
         "credentials": {
           "n8nApi": {
             "id": "57rliweBvlFczYOI",
@@ -820,7 +821,7 @@
       }
     },
     "authors": "Charlie Wickersham",
-    "name": "Version 2672f901",
+    "name": "Version 3188b600",
     "description": "",
     "autosaved": true
   },
