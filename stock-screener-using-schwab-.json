@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-01T19:32:30.308Z",
+  "updatedAt": "2026-03-02T21:36:46.956Z",
   "createdAt": "2026-02-27T19:57:57.495Z",
   "id": "p7amoqjhxwzolWav",
   "name": "Stock Screener using Schwab",
@@ -19,13 +19,15 @@
     },
     {
       "parameters": {
-        "url": "https://api.schwabapi.com/marketdata/v1/quotes",
+        "url": "https://api.schwabapi.com/v1/oauth/authorize?client_id=1uOGWOUNWgaAzOwYyRVidmIt48JZcNGeWoLe4njPIBFk96c8&redirect_uri=https://n8n.cwcserv.com/rest/oauth2-external/callback",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
             {
               "name": "symbols",
-              "value": "MRAD,EATOF,EBIZ,AAPL,BAC,AAAHX,AAAIX,$DJI,$SPX,MVEN,SOBS,TOITF,CNSWF,AMZN  230317C01360000,DJX   231215C00290000,/ESH23,./ADUF23C0.55,AUD/CAD"
+              "value": "AMZN,AAPL,NVDA"
             },
             {
               "name": "fields",
@@ -55,7 +57,13 @@
         0
       ],
       "id": "0715467a-dd4c-4a4c-a15b-bd6167ef32af",
-      "name": "HTTP Request"
+      "name": "HTTP Request",
+      "credentials": {
+        "oAuth2Api": {
+          "id": "OiWjB7agmouPWxHd",
+          "name": "Charles Schwab OAuth2"
+        }
+      }
     }
   ],
   "connections": {
@@ -73,7 +81,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "eb0b8216-a4d0-4243-869c-cd7e250959b0",
+  "versionId": "832621aa-f720-4b4f-b5b8-7ae0f03fd0c9",
   "activeVersionId": null,
   "triggerCount": 0,
   "shared": [
